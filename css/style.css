@@ -7,3 +7,20 @@
     --white:#fff;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .2s linear;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
