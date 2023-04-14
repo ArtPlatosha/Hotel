@@ -80,6 +80,10 @@ html {
 	color: var(--white);
 }
 
+.header .navbar .btn:hover {
+	color: var(--white);
+}
+
 #menu-btn {
 	display: none;
 }
