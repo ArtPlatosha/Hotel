@@ -87,3 +87,17 @@ html {
 #menu-btn {
 	display: none;
 }
+
+.home {
+	padding: 0;
+}
+
+.home .slide {
+	min-height: 100vh;
+	background-size: cover !important;
+	background-position: center !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: -1;
+}
