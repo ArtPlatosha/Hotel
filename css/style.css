@@ -24,3 +24,62 @@ html {
 	font-size: 62.5%;
 	overflow-x: hidden;
 }
+
+.btn {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: 1rem 3rem;
+	background-color: var(--primary);
+	border-radius: .5rem;
+	color: var(--white);
+	font-size: 1.7rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--secondary);
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background-color: var(--white);
+	box-shadow: var(--box-shadow);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 9%;
+}
+
+.header .logo {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	color: var(--black)
+}
+
+.header .logo i {
+	color: var(--primary);
+	padding-right: .5rem;
+}
+
+.header .navbar a {
+	font-size: 1.7rem;
+	color: var(--black);
+	margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+	color: var(--primary);
+}
+
+.header .navbar .btn {
+	margin-top: 0;
+	color: var(--white);
+}
+
+#menu-btn {
+	display: none;
+}
