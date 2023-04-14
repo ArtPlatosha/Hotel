@@ -101,3 +101,36 @@ html {
 	justify-content: center;
 	z-index: -1;
 }
+
+.home .slide .content {
+	width: 80rem;
+	text-align: center;
+}
+
+.home .slide .content h3 {
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: var(--white);
+	line-height: 1.1;
+	padding: 2rem 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	height: 5rem;
+	width: 5rem;
+	line-height: 5rem;
+	background-color: var(--white);
+	color: var(--black);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+	font-size: 2rem;
+}
