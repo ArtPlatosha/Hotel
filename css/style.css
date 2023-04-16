@@ -301,3 +301,24 @@ section {
 	font-size: 1.7rem;
 	color: var(--primary);
 }
+
+.services .box-conteiner {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	gap: 2rem;
+}
+
+.services .box-conteiner .box {
+	text-align: center;
+}
+
+.services .box-conteiner .box img {
+	height: 10rem;
+	margin-bottom: .7rem;
+}
+
+.services .box-conteiner .box h3 {
+	font-size: 1.7rem;
+	color: var(--black);
+	padding: .5rem 0;
+}
