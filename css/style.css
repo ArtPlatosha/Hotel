@@ -322,3 +322,37 @@ section {
 	color: var(--black);
 	padding: .5rem 0;
 }
+
+.gallery .slide {
+	height: 30rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery .slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery .slide .icon {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery .slide .icon i {
+	font-size: 6rem;
+	color: var(--white);
+}
+
+.gallery .slide:hover .icon {
+	display: flex;
+}
