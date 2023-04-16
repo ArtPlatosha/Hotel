@@ -44,6 +44,15 @@ section {
 	padding: 5rem 7%;
 }
 
+.heading {
+	font-size: 4rem;
+	color: var(--primary);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-bottom: 3rem;
+}
+
 .btn {
 	display: inline-block;
 	margin-top: 1rem;
@@ -211,4 +220,84 @@ section {
 	color: #666;
 	padding: 1rem 0;
 	line-height: 1.8;
+}
+
+.room .slide {
+	background-color: var(--white);
+	border: .1rem solid rgba(0, 0, 0, 0.2);
+	border-radius: .5rem;
+	box-shadow: var(--box-shadow);
+	margin-bottom: 4rem;
+}
+
+.room .slide .image {
+	height: 25rem;
+	width: 100%;
+	padding: 1.5rem;
+	overflow: hidden;
+	position: relative;
+}
+
+.room .slide .image img {
+	width: 100%;
+	height: 100%;
+	border-radius: .5rem;
+	object-fit: cover;
+}
+
+.room .slide .image .price {
+	position: absolute;
+	top: 2.5rem;
+	left: 2.5rem;
+	background-color: var(--primary);
+	color: var(--white);
+	font-size: 1.7rem;
+	padding: .5rem 1rem;
+	border-radius: .5rem;
+	text-transform: lowercase;
+}
+
+.room .slide .image .fa-shopping-cart {
+	position: absolute;
+	top: 2.5rem;
+	right: 2.5rem;
+	height: 4.5rem;
+	width: 4.5rem;
+	line-height: 4.5rem;
+	text-align: center;
+	font-size: 2rem;
+	background-color: var(--white);
+	color: var(--black);
+	border-radius: 50%;
+}
+
+.room .slide .image .fa-shopping-cart:hover {
+	background-color: var(--secondary);
+	color: var(--white);
+}
+
+.room .slide .content {
+	padding: 2rem;
+	padding-top: 0;
+}
+
+.room .slide .content h3 {
+	font-size: 2.5rem;
+	color: var(--black);
+}
+
+.room .slide .content p {
+	font-size: 1.6rem;
+	color: #666;
+	padding: .5rem 0;
+	line-height: 1.5rem;
+}
+
+.room .slide .content .stars {
+	padding: 1rem 0;
+}
+
+.room .slide .content .stars i {
+	font-size: 1.7rem;
+	color: var(--primary);
 }
