@@ -37,3 +37,29 @@ var swiper = new Swiper('.room-slider', {
 		},
 	},
 });
+
+var swiper = new Swiper('.gallery-slider', {
+	spaceBetween: 10,
+	grabCursor: true,
+	loop:true,
+	centeredSlides:true,
+	autoplay: {
+		delay: 1500,
+		disableOnInteraction: false,
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+	breakpoints: {
+		0: {
+			slidesPerView: 1,
+		},
+		768: {
+			slidesPerView: 3,
+		},
+		991: {
+			slidesPerView: 4,
+		},
+	},
+});
