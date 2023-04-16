@@ -23,6 +23,25 @@
 html {
 	font-size: 62.5%;
 	overflow-x: hidden;
+	scroll-padding-top: 9rem;
+	scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+	width: .8rem;
+}
+
+html::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: var(--primary);
+	border-radius: .5rem;
+}
+
+section {
+	padding: 5rem 7%;
 }
 
 .btn {
@@ -133,4 +152,31 @@ html {
 .swiper-button-next::after,
 .swiper-button-prev::after {
 	font-size: 2rem;
+}
+
+.availability form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	background-color: #eee;
+	padding: 2rem;
+	border-radius: .5rem;
+}
+
+.availability form .box {
+	flex: 1 1 20rem;
+}
+
+.availability form .box p {
+	font-size: 2rem;
+	color: var(--primary);
+}
+
+.availability form .box .input {
+	width: 100%;
+	padding: 1rem;
+	font-size: 1.8rem;
+	color: var(--black);
+	margin: 1rem 0;
+	border-radius: .5rem;
 }
