@@ -180,3 +180,35 @@ section {
 	margin: 1rem 0;
 	border-radius: .5rem;
 }
+
+.about .row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6rem;
+}
+
+.about .row .image {
+	flex: 1 1 30rem;
+}
+
+.about .row .image img {
+	width: 100%;
+}
+
+.about .row .content {
+	flex: 1 1 51rem;
+}
+
+.about .row .content h3 {
+	font-size: 3.5rem;
+	color: var(--primary);
+	padding: 2rem 0;
+}
+
+.about .row .content p {
+	font-size: 1.6rem;
+	color: #666;
+	padding: 1rem 0;
+	line-height: 1.8;
+}
