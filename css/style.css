@@ -426,3 +426,37 @@ section {
 	font-size: 1.3rem;
 	color: var(--primary);
 }
+
+.faqs .row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+}
+
+.faqs .row .image {
+	flex: 1 1 40rem;
+}
+
+.faqs .row .content {
+	flex: 1 1 40rem;
+}
+
+.faqs .row .content .box {
+	margin-top: 2rem;
+}
+
+.faqs .row .content .box h3 {
+	font-size: 2rem;
+	color: var(--primary);
+	padding: 1.5rem;
+	cursor: pointer;
+}
+
+.faqs .row .content .box p {
+	font-size: 1.6rem;
+	padding: 1.5rem 2rem;
+	line-height: 2;
+	color: var(--secondary);
+	box-shadow: var(--box-shadow);
+}
