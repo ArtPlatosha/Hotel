@@ -438,6 +438,10 @@ section {
 	flex: 1 1 40rem;
 }
 
+.faqs .row .image img {
+	width: 100%;;
+}
+
 .faqs .row .content {
 	flex: 1 1 40rem;
 }
@@ -459,4 +463,9 @@ section {
 	line-height: 2;
 	color: var(--secondary);
 	box-shadow: var(--box-shadow);
+	display: none;
+}
+
+.faqs .row .content .box.active p {
+	display: inline-block;
 }
