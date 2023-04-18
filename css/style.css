@@ -114,6 +114,14 @@ section {
 
 #menu-btn {
 	display: none;
+	font-size: 2.5rem;
+	margin-left: 1.7rem;
+	cursor: pointer;
+	color: var(--black);
+}
+
+#menu-btn:hover {
+	color: var(--primary);
 }
 
 .home {
@@ -552,4 +560,35 @@ section {
 	color: var(--white);
 	background-color: var(--primary);
 	transform: rotate(360deg);
+}
+
+@media (max-width: 991px) {
+	html {
+		font-size: 55%;
+	}
+
+	.hedaer {
+		padding: 2rem 3rem;
+	}
+}
+
+@media (max-width: 768px) {
+	#menu-btn {
+		display: inline-block;
+	}
+
+	.header .navbar {
+		position: absolute;
+		top: 110%;
+		right: -110%;
+		width: 30rem;
+		box-shadow: var(--box-shadow);
+		background-color: var(--white);
+		border-radius: .5rem;
+	}
+
+	.header .navbar.active {
+		right: 2rem;
+		transition: .4s linear;
+	}
 }
