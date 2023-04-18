@@ -499,3 +499,57 @@ section {
     border-bottom: .2rem solid rgba(0, 0, 0, 0.1);
     color: var(--black);
 }
+
+.footer {
+	background-color: var(--secondary);
+}
+
+.footer .box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+	gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+	font-size: 2.2rem;
+	padding: 1rem 0;
+	color: var(--primary);
+}
+
+.footer .box-container .box a {
+	font-size: 1.6rem;
+	display: block;
+	color: var(--white);
+	padding: 1rem 0;
+}
+
+.footer .box-container .box a i {
+	color: var(--primary);
+	padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover {
+	color: var(--primary);
+}
+
+.footer .share {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.footer .share a {
+	color: var(--primary);
+	font-size: 2rem;
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	border-radius: 50%;
+	border: .1rem solid var(--primary);
+	margin: .3rem;
+}
+
+.footer .share a:hover {
+	color: var(--white);
+	background-color: var(--primary);
+	transform: rotate(360deg);
+}
